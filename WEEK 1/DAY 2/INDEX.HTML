@@ -83,6 +83,7 @@
 
          </table>
          <fieldset>
+    <form action="action.php" method="POST">
 
             <legend>Anagrafica</legend>
             <label for="nome">NOME</label>
@@ -131,7 +132,13 @@
         <br>
         <p></p>
         <label for="pagamento">Inserisci numero rate</label> <br>
-        <input type="number" name="pagamento" id="pagamento" min="3" max="6"/>
+        <input type="number" name="pagamento" id="pagamento" min="3" max="6" value="3"/>
          </fieldset>
+         <p></p>
+         <button type="submit" id="submit">Invia</button>
+         <button type="reset" id="cancella">Cancella</button>
+         </form>
+
+      
     </body>
 </html>
