@@ -82,5 +82,55 @@
              </tbody>
 
          </table>
+         <fieldset>
+
+            <legend>Anagrafica</legend>
+            <label for="nome">NOME</label>
+            <input type="text" name="nome" id="nome" placeholder="Inserisci il tuo nome">
+            <label for="cognome">COGNOME</label>
+            <input type="text" name="cognome" id="cognome">
+            <label for="dataNascita">Data di nascita</form>
+            <input type="date" id="dataNascita" name="dataNascita">
+            <p></p>
+            <label for="indirizzo">Indirizzo</label>
+            <textarea id="indirizzo" name=" indirizzo"></textarea>
+            <p></p>
+            <label for="telefono">Telefono</label>
+            <input type="tel" id="telefono" name="telefono">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Inserisci password con almeno 8 caratteri" size="100">
+
+         </fieldset>
+         <fieldset>
+            <legend>Competenze</legend>
+            <input type="checkbox" name="HTML" id="html">
+            <label for="html">HTML</label><input type="checkbox" name="HTML" id="html"> <br />
+            <label for="css">CSS</label><input type="checkbox" name="CSS" id="css"> <br />
+            <label for="php">PHP</label><input type="checkbox" name="PHP" id="php">
+            
+         </fieldset>
+
+         <fieldset>
+            <legend>Tipologia corso</legend>
+        <select name="corso" id="corso">
+            <option value="" selected></option>
+            <option value="1">FRONT END</option>
+            <option value="2">BACK END</option>
+            <option value="3">FULL STACK</option>
+        </select>
+        <p></p>
+        <label for="durata">Tipo di corso</label>
+        <br>
+        <input type="radio" id="partMatt"name="durata">
+        <label for="partMatt">Part-time (mattina)</label>
+        <input type="radio" id="partSera" name="durata">
+        <label for="partSera">Part-time (sera)</label>
+        <br>
+        <p></p>
+        <label for="pagamento">Inserisci numero rate</label> <br>
+        <input type="number" name="pagamento" id="pagamento" min="3" max="6"/>
+         </fieldset>
     </body>
 </html>
