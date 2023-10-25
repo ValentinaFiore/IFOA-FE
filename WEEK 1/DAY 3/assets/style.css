@@ -1,0 +1,28 @@
+html, body { 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    text-align: center;
+    
+}
+
+
+
+
+#claim {
+    border-top: 1px solid #fcd528 ;
+    font-size: smaller;
+    background-color:#FDFBF1;
+    color: #147474;
+    text-align: center;   
+    align: center
+}
+.green{
+    font-weight: bold;
+}
+main {
+    text-align: center;
+}
+
+
