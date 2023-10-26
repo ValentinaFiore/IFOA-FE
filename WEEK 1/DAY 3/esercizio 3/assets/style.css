@@ -1,22 +1,24 @@
 html, body { 
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    
 }
 
 header {
     text-align: center;
-    
 }
 
-
-
-
-#claim {
+#claim  {
+   
     border-top: 1px solid #fcd528 ;
     font-size: smaller;
     background-color:#FDFBF1;
     color: #147474;
-    text-align: center;   
-    align: center
+    text-align: center;
+     
+}
+
+#caption {
+    opacity: 0.5;
 }
 .green{
     font-weight: bold;
@@ -24,5 +26,4 @@ header {
 main {
     text-align: center;
 }
-
 
