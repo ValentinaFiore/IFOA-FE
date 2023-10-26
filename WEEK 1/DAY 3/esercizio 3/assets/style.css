@@ -20,6 +20,11 @@ body {
     text-align: left;
     margin: auto;
   }
+
+  #video{
+    display: inline;
+    align-items: center ;
+  }
   
   .content video {
     width: 100%;
