@@ -23,9 +23,11 @@ header img {
 
 #banner {
     background-image: url(../assets/banner.jpg);
-    background-position:center;
+    background-size: cover ;
+   padding-bottom: 20vh;
+    background-repeat: no-repeat;
     text-align:center;  
-    padding:10%;
+ 
   
 }
 
@@ -33,7 +35,7 @@ header img {
     margin: 0;
     line-height: 1.5;
     color: #25a2c3;
-    padding:0;
+    padding:50px;
     font-size: 2em;
    
 }
@@ -82,4 +84,7 @@ blockquote{
     color: white;
     font-style:'Montserrat', sans-serif;
     font-size: 2em;
+}
+.pic1,.pic2,.pic3 {
+   padding: 4vh;
 }
