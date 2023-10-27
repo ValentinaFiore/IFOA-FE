@@ -1,9 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Poppins:wght@100;200;300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Open+Sans&family=Poppins:wght@100;200;300;400;500&display=swap');
+
+
 html, body  {text-align: center;
     box-sizing: border-box;
     margin: 0;
     padding :0;
-    font-family:'Montserrat', sans-serif;
+    font-family:font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #393d41  ;
     width: 100%;
     
@@ -23,10 +28,10 @@ header img {
 
 #banner {
     background-image: url(../assets/banner.jpg);
+    background-position: center;
     background-size: cover ;
-   padding-bottom: 20vh;
-    background-repeat: no-repeat;
-    text-align:center;  
+ 
+
  
   
 }
@@ -39,21 +44,23 @@ header img {
     font-size: 2em;
    
 }
-h1, h4{
+h1, h2{
     
     color: #25a2c3;
 }
 button {
     background-color:#f04c2f ;
-    font-style: bold;
+
     color: white;
     height: 30px;
     width: 130px;
     border: none;
     border-radius: 4px;
     margin: 0;
-    font-family: 'Montserrat', sans-serif;  
-   
+    font-family: 'Open Sans', sans-serif;
+    font-style: bold
+    ;
+    
 }
 
 #firstcontent img {
