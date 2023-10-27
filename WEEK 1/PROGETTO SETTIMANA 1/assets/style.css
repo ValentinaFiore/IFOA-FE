@@ -5,8 +5,8 @@
 html, body  {text-align: center;
     box-sizing: border-box;
     margin: 0;
-    padding :0;
-    font-family:font-family: 'Montserrat', sans-serif;
+    padding :0
+    font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     color: #393d41  ;
@@ -30,10 +30,8 @@ header img {
     background-image: url(../assets/banner.jpg);
     background-position: center;
     background-size: cover ;
+    
  
-
- 
-  
 }
 
 #banner h1 {
@@ -50,17 +48,15 @@ h1, h2{
 }
 button {
     background-color:#f04c2f ;
-
     color: white;
     height: 30px;
     width: 130px;
     border: none;
     border-radius: 4px;
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    font-style: bold
-    ;
-    
+    margin: 4em;
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold;
+  
 }
 
 #firstcontent img {
@@ -73,6 +69,7 @@ button {
 
 #firstsection {
     width: 100%;
+    
 }
    
 .redbox {
