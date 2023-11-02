@@ -34,16 +34,16 @@ console.log(somma);
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 
-var x = 12;
+let x = 12;
 console.log(x);
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "name" già esistente: il tuo cognome.
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
-var name= 'Valentina';
-console.log(name);
-name='Fiore';
-console.log(name);
+myName= 'Fiore';
+console.log(myName);
+const persona = myName;
+console.log(myName);
 
 
 
@@ -53,9 +53,9 @@ console.log(name);
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
-let numero = 4;
-let a = 12;
-let differenza = a-numero;
+let y = 4;
+ x = 12;
+let differenza = y-x;
 console.log(differenza);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
@@ -69,7 +69,14 @@ console.log(differenza);
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 
-var name1 = "jhon";
-var name2 = "Jhon";
-var nomeCorretto = name1 == name2;
-console.log(nomeCorretto);
+let name1 = "jhon";
+let name2 = "Jhon";
+let verifica = name1 === name2;
+console.log(verifica);
+
+//soluzione2
+console.log('i nomi sono uguali?' + (name1 === name2));
+//soluzione3
+
+
+ 
