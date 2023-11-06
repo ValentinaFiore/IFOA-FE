@@ -156,3 +156,6 @@ console.log(upperFirst(sentence));
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+const animali =['topo','elefante','acquila'];
+console.log(animali);
