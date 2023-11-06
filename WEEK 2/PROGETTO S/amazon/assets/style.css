@@ -65,13 +65,13 @@ h1, h3 {
 
 #firstBlock img {
   
-    height: 250px;
-    width: 200px;;
-    border-radius: 10%;
-    margin-top: 2vh;
-    margin-left: 8em;
-    padding:0;
-    margin: 0.5em;
+
+ width: 400px;
+ height: 500px;
+ text-align: center;
+ display: inline-block;
+ padding: 1.5em;
+
    
     
 
@@ -84,7 +84,7 @@ h1, h3 {
 }
 
 .visore img{
-    width: 100px;
+    width: 1500px;
     padding: 3em;
 /*non sono riuscita a sistemare */
 
