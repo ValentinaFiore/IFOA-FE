@@ -52,22 +52,21 @@ header {
 }
 #banner {
     background-image: url(../assets/bg-image.png);
-    height: 190px;
-    padding: 5px;
-    margin: 20px;
+margin-left: 20px;
+margin-right: 20px;
 }
 
 h1, h3 {
     color: #f2eef3;
     text-align: center;
-    margin-top:1.5em;
+   
 }
 
 #firstBlock img {
   
 
- width: 400px;
- height: 500px;
+ width: 150px;
+ height: 200px;
  text-align: center;
  display: inline-block;
  padding: 1.5em;
@@ -80,12 +79,16 @@ h1, h3 {
  margin-top: 30vh;
  background-color: white;
  vertical-align: top;/*non sono riuscita a sistemare*/
-
+ margin-bottom: 3vh;
+ margin-left: 20px;
+ margin-right: 20px;
 }
 
 .visore img{
-    width: 1500px;
-    padding: 3em;
+    width:1183px;
+    height:auto;
+    margin-left: 20px;
+    
 /*non sono riuscita a sistemare */
 
 }
