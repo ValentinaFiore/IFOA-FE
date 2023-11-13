@@ -24,6 +24,7 @@ body {
   #video{
     display: inline;
     align-items: center ;
+    margin-left: 150px ;
   }
   
   .content video {

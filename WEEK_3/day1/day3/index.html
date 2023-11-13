@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ASSETS/style.css">
+</head>
+<body>
+    <h1>TO DO LIST</h1>
+    <p>
+        Write below your comments. Thank you!
+    </p>
+    <input id = "new_task" type=" text">
+    <button id = "newtask-btn" >Aggiungi Task</button>
+    <button id = "clearBtn" >Rimuovi</button>
+    <div id = "todo"></div>
+
+
+    <script>
+document.addEventListener("DOMContentLoaded", ()=>{
+const newTaskBtn = document.getElementById("newtask-btn")
+const clearBtn = document.getElementByID("clearBtn")
+const input = document.getElementById("new_task")
+
+newTaskBtn.addEventListener("click", () => {
+    console.log("nuovo task")
+})
+clearBtn.addEventListener("click", () => {
+    console.log("clean task")
+})
+input.addEventListener("keypress", (e) => {
+    console.log("e")
+})
+if(e.key === "Enter"){
+    console.log('ho premuto invio')
+}
+
+})
+
+
+    </script>
+
+    </body>
+</html>

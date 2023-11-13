@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendario</title>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!--meglio usare div come contenitore generico perchè non ha comportamenti predefiniti rispeto al main-->
+    
+    
+
+        <main>
+        <div id="calendar"></div>
+        <div>
+          <h2>Aggiungi appuntamento</h2>
+        </div>
+        <div id="addMeating">
+          <div>
+            <h4>Giorno</h4>
+            <span id="newMeatingDay">Clicca su un giorno</span><!--span è un contenitore generico che lo usi quando serve modificare solo questa riga, ha un comprtamento inline-->
+          </div>
+          <form>
+            <div>
+              <h4>Ora appuntamento</h4>
+              <input type= "time" required id="newMeatingTime" />
+            </div>
+            <div>
+              <h4>Nome appuntamento</h4>
+              <input
+                type="text"
+                required
+                id="NewMeatingName"
+                placeholder="Inserisci un nome per l'appuntamento"
+              />
+            </div>
+            <div>
+              <h4>Aggiungi</h4>
+              <button type="submit">Salva</button>
+            </div>
+          </form>
+        </div>
+      </main>
+      <section>
+         <div id="appointments">
+        <h2>Appuntamenti del giorno:</h2>
+        <ul>
+           <!--la lista appunt sarà generata e costruita da Js-->
+        </ul>
+
+      </div> <!--sezione dove mostro gli appuntamenti esitenti per il giorno selezionato-->
+      </section>
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>
