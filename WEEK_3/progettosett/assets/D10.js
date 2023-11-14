@@ -72,12 +72,12 @@ console.log(me);
 */
 function dice() {
  
- let randomNumber = Math.floor(Math.random() * 6) + 1;
+return Math.floor(Math.random() * 6) + 1;
   return randomNumber;
 }
 
-let risultatoDado = dice();
-console.log("Il risultato del dado è:", risultatoDado);
+
+console.log(dice());
 
 
 /* ESERCIZIO 2
