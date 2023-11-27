@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;500;700;800;900&family=Roboto:wght@300;400;700&family=Spectral:wght@300;400;600&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: "Spectral", serif;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffc017;
+  border-bottom: 1px solid black;
+}
+#logo {
+  padding: 1vh;
+}
+.navBar li {
+  list-style-type: none;
+  display: flex;
+  padding: 15px;
+  margin-right: 50px;
+}
+
+.lista {
+  display: flex;
+  justify-content: space-between;
+}
+
+#buttonStart {
+  margin-right: 200px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  width: 40%;
+}
+.startBar {
+  background-color: #ffc017;
+  padding: 150px;
+}
+#start button {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  border-radius: 30px;
+  padding: 10px;
+  width: 25%;
+}
+#start {
+  margin-top: 40px;
+}
+
+h1 {
+  font-size: 5em;
+  margin-bottom: 30px;
+ 
+}
+
+h2 {
+  font-family: "Roboto";
+}
+
+
+
+
+
+  .trending{
+    font-family: Roboto;
+    font-weight: bolder;
+    padding-top: 6px;
+  }.container {
+  width: 70%; 
+  margin: 20px auto;
+  overflow: hidden;
+}
+#firstImg  {
+    float: left; 
+    margin-left: 250px;
+    border-radius: 30px;
+}
+  
+  p {
+    padding:15px;
+    font-family: Roboto;
+    font-size: small;
+    font-weight: bold;
+  
+  }
+  .trendingContainer{
+    display: flex;
+    flex-wrap: wrap;
+  } 
+  .tempo{
+    color: grey;
+    margin-left: 280px;
+    
+  }
+  .trendImg{
+    float: left;
+     }
